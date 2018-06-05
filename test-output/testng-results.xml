@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15894" started-at="2018-06-05T18:28:44Z" finished-at="2018-06-05T18:29:00Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15894" started-at="2018-06-05T18:28:44Z" finished-at="2018-06-05T18:29:00Z">
+      <class name="BookingTest.IndigoTest">
+        <test-method status="PASS" signature="open()[pri:0, instance:BookingTest.IndigoTest@f6c48ac]" name="open" duration-ms="7951" started-at="2018-06-05T18:28:44Z" finished-at="2018-06-05T18:28:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method status="PASS" signature="OneWayBooking()[pri:0, instance:BookingTest.IndigoTest@f6c48ac]" name="OneWayBooking" duration-ms="7921" started-at="2018-06-05T18:28:52Z" depends-on-methods="BookingTest.IndigoTest.open" finished-at="2018-06-05T18:29:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OneWayBooking -->
+      </class> <!-- BookingTest.IndigoTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
